@@ -124,7 +124,7 @@ public class Policy {
         return weight;
     }
     public double getBMI(){
-        return weight*703/height*height;
+        return (weight*703)/(height*height);
     }
     public double getPrice(){
         final double baseFee = 600.00;
