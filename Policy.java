@@ -2,11 +2,11 @@ public class Policy {
     /**
      * Fields for the policy
      */
-    private int policyNumber;
+    private double policyNumber;
     private String providerName; 
     private String firstName;
     private String lastName;
-    private int age;
+    private double age;
     private String smokeStatus;
     private double height;
     private double weight;
@@ -33,7 +33,7 @@ public class Policy {
      * @param height
      * @param weight
      */
-    public Policy(int policyNumber, String providerName, String firstName, String lastName, int age, String smokeStatus, double height, double weight){
+    public Policy(double policyNumber, String providerName, String firstName, String lastName, double age, String smokeStatus, double height, double weight){
         this.policyNumber = policyNumber;
         this.providerName = providerName;
         this.firstName = firstName;
@@ -47,10 +47,10 @@ public class Policy {
      * Mutator and Accessor for policy number
      * @param policyNumber
      */
-    public void setpolicyNumber(int policyNumber){
+    public void setpolicyNumber(double policyNumber){
         this.policyNumber = policyNumber;
     }
-    public int getpolicyNumber(){
+    public double getpolicyNumber(){
         return policyNumber;
     }
     /**
@@ -87,10 +87,10 @@ public class Policy {
      * Mutator and Accessor for age
      * @param age
      */
-    public void setAge(int age){
+    public void setAge(double age){
         this.age = age;
     }
-    public int getAge(){
+    public double getAge(){
         return age;
     }
     /**
